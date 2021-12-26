@@ -1,0 +1,60 @@
+@font-face {
+    font-family: berlin;
+    src: url(assets/fonts/Berlin.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: berlin;
+    src: url(assets/fonts/Berlin Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: berlin;
+    src: url(assets/fonts/Berlin - Italic.ttf);
+    font-style: italic;
+}
+
+* {
+    font-family: berlin;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(assets/images/tile_background.png);
+    background-repeat: repeat-y;
+}
+
+.logo {
+    padding: 2vw;
+    width: 7.5vw;
+}
+
+.upperbar {
+    background-color: #1F2833;
+    width: 95.5vw;
+    height: 13.5vh;
+    padding: 0 2vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upperbar ul li {
+    padding: 1vw 2vw;
+    margin: 1vw;
+    list-style: none;
+    display: inline-block;
+    background: #C5C6C7;
+    border-radius: 0.75vw
+}
+
+.upperbar ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0B0C10;
+    text-transform: uppercase;
+}
